@@ -1,0 +1,13 @@
+{
+  "name": "Bats-Test",
+  "version": "0.0.0",
+  "dependencies": {
+    "publisssh": "^1.0.0-beta",
+    "haw": "^0.5.0",
+    "stack-of-pages": "^0.1.5",
+    "backbone": "^1.1.2"
+  },
+  "scripts": {
+    "deploy-to-test": "haw build && publisssh ./build demo.zooniverse.org/bats-test && rm -rf ./build"
+  }
+}

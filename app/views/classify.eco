@@ -1,0 +1,29 @@
+<% videosToTest = require '../lib/videos-to-test' %>
+
+<% if @videoId > videosToTest.length: %>
+  <p>No more videos! Thank you!</p>
+<% else: %>
+  <div class="subject-viewer page">
+    <h1>Video <%- @videoId %> of <%- videosToTest.length %></h1>
+    <div class="video" id="subject-video">
+      <video controls id="video-el">
+        <source src="<%- videosToTest[@videoId - 1].file %>.mp4"></source>
+        <source src="<%- videosToTest[@videoId - 1].file %>.webm"></source>
+      </video>
+      <select name="playback-rate">
+        <% for i in [1, 0.5, 1.5]: %>
+          <% if @selectedRate is i: %>
+            <option name="<%- i %>" selected><%- i %></option>
+          <% else: %>
+            <option name="<%- i %>"><%- i %></option>
+          <% end %>
+        <% end %>
+      </select>
+    </div>
+    <div class="form" id="subject-form">
+      <iframe src="<%- videosToTest[@videoId - 1].form %>"></iframe>
+    </div>
+  </div>
+
+  <div class="center"><a href="#/classify/<%- @videoId %>" class="button">Next</a></div>
+<% end %>
