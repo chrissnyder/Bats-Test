@@ -8,6 +8,7 @@
     "backbone": "^1.1.2"
   },
   "scripts": {
+    "start": "haw serve",
     "deploy-to-test": "haw build && publisssh ./build demo.zooniverse.org/bats-test && rm -rf ./build"
   }
 }
