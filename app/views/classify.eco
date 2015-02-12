@@ -1,17 +1,18 @@
-<% videosToTest = require '../lib/videos-to-test' %>
+ <% videosToTest = require '../lib/videos-to-test' %>
 
-<% if @videoId > videosToTest.length: %>
+<% if @activeVideoId > videosToTest.length: %>
   <p>No more videos! Thank you!</p>
 <% else: %>
   <div class="subject-viewer page">
-    <h1>Video <%- @videoId %> of <%- videosToTest.length %></h1>
+    <h1>Video <%- @activeVideoId %> of <%- videosToTest.length %></h1>
     <div class="video" id="subject-video">
       <video controls id="video-el">
-        <source src="<%- videosToTest[@videoId - 1].file %>.mp4"></source>
-        <source src="<%- videosToTest[@videoId - 1].file %>.webm"></source>
+        <source src="<%- videosToTest[@activeVideoId - 1].file %>.mp4"></source>
+        <source src="<%- videosToTest[@activeVideoId - 1].file %>.webm"></source>
       </video>
+      <label for="playback-rate">Choose the video playback speed:</label>
       <select name="playback-rate">
-        <% for i in [1, 0.5, 1.5]: %>
+        <% for i in @availablePlaybackRates: %>
           <% if @selectedRate is i: %>
             <option name="<%- i %>" selected><%- i %></option>
           <% else: %>
@@ -21,9 +22,9 @@
       </select>
     </div>
     <div class="form" id="subject-form">
-      <iframe src="<%- videosToTest[@videoId - 1].form %>"></iframe>
+      <iframe src="<%- videosToTest[@activeVideoId - 1].form %>"></iframe>
     </div>
   </div>
 
-  <div class="center"><a href="#/classify/<%- @videoId %>" class="button">Next</a></div>
+  <div class="center"><a href="#/classify/<%- @activeVideoId + 1 %>" class="button">Next</a></div>
 <% end %>

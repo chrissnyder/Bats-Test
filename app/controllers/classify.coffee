@@ -5,6 +5,8 @@ class Classify extends Backbone.View
   className: 'classify'
   template: require '../views/classify'
 
+  availablePlaybackRates: [1, 0.5, 0.25]
+
   elements:
     '#subject-video': 'subjectVideo'
     '#subject-form': 'subjectForm'
@@ -19,7 +21,7 @@ class Classify extends Backbone.View
     @$el.html @template @
 
   activate: (e) =>
-    @videoId = +e.originalEvent?.detail?.videoId || 1
+    @activeVideoId = +e.originalEvent?.detail?.videoId || 1
     @render()
 
   onChangePlaybackRate: (e) =>
