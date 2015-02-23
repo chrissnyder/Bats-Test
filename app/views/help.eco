@@ -1,19 +1,4 @@
 <div class="page">
-  <h1 class="center">Thank you for helping us test this project.</h1>
-  <h2>General Directions:</h2>
-  <p>Click on the links below to watch as many of the videos as you would like. Each video is only 30 seconds long. When you click on a link, it will bring up a page with the video and a list of 3 questions. (The next section describes the questions in more detail.)</p>
-  <p>As you watch the video, answer the associated questions. Sometimes it is helpful to watch the video multiple times or watch it in slow motion. You can pause, rewind, slow down, and restart the video as many times as you need. Submit your answers after you complete all three questions.</p>
-  <p>If you want to watch more videos, click on the link to another video. You’ll be given a new video with the same 3 questions. Watching multiple videos helps our test, but it isn’t required.</p>
-  <p>After you watch as many videos as you want to watch and submit your answers for each of those videos, please take this short survey. The survey asks questions about your user experience. Your answers to those questions will help us develop the full website and improve the user experience.</p>
-
-  <h3 class="center"><a href="#">Survey Link</a></h3>
-
-  <h2>Question Details:</h2>
-  <p>The first question asks how many bats you saw simultaneously in the video. Your choices are 0, 1, 2-5, or more than 5. Mark the answer that indicates the most bats that you saw at the same time in the video.</p>
-  <p>The second question gives you a list of behaviors and asks you to mark the ones that you saw. Some of the videos have lots of bats; other videos have only a few bats or no bats. You are watching all of the bats to see if any individual bat does one of the behaviors. If you see one bat do the behavior, then mark the behavior as being present in the video. You may see several different behaviors as you watch the video. Mark all of the ones that you see. The table below describes each of the behaviors. It also has links to examples of most of the behaviors.</p>
-  <p>The third question asks you to mark any other animals that you see in the video. Your choices are human, insect, snake, bobcat, skunk, coati, coyote, or ringtail. You may see several different types of animals or you may see none. Mark all that apply.</p>
-
-
   <h2>List of Behaviors</h2>
   <table>
     <tr>
@@ -22,7 +7,7 @@
     </tr>
     <tr>
       <td>Flying Inside<br><a href="https://www.youtube.com/watch?v=ttBUDzmlraI&feature=youtu.be" target="_blank">Example</a></td>
-      <td>Mark this behavior if you see at least one bat flying around inside the gate. These bats aren’t just entering or exiting the gate, but are spending time flying within the gated area. Often, it will look like they are flying in circles or zig-zags inside the gate. Click on "Example" to see this behavior.</td>
+      <td>Mark this behavior if you see at least one bat flying around inside the gate. These bats aren't just entering or exiting the gate, but are spending time flying within the gated area. Often, it will look like they are flying in circles or zig-zags inside the gate. Click on "Example" to see this behavior.</td>
     </tr>
     <tr>
       <td>Flying Outside<br><a href="https://www.youtube.com/watch?v=mbx12vcQOrQ&feature=youtu.be" target="_blank">Example</a></td>
@@ -42,7 +27,7 @@
     </tr>
     <tr>
       <td>Land</td>
-      <td>Mark this behavior if you see one or more bats land on something. The bat could land on the gate, surrounding vegetation, or anything else visible in the video. This is a rare behavior and we currently don’t have an example of what it looks like.</td>
+      <td>Mark this behavior if you see one or more bats land on something. The bat could land on the gate, surrounding vegetation, or anything else visible in the video. This is a rare behavior and we currently don't have an example of what it looks like.</td>
     </tr>
     <tr>
       <td>Bump<br><a href="https://www.youtube.com/watch?v=nDihRLxxxBw&feature=youtu.be" target="_blank">Example</a></td>

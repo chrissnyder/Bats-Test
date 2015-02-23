@@ -1,0 +1,21 @@
+<div class="page">
+  <h2>General Directions:</h2>
+  <p>Click on the <a href="#/classify">Classify</a> link to go to the videos. There are 8 videos and you can watch as many of them as you would like. Each video is only 30 seconds long. Each video has a list of 3 questions. (The next section describes the questions in more detail.)</p>
+
+  <p>As you watch the video, answer the associated questions. Sometimes it is helpful to watch the video multiple times or watch it in slow motion. You can choose between full speed (1), half speed (0.5), or quarter speed (0.25). You can pause, rewind, slow down, and restart the video as many times as you need. Submit your answers after you complete all three questions.</p>
+
+  <p>When you answer the questions be as accurate as you can, but don't stress about "missing something" or "getting it wrong." Even career scientists miss things and make mistakes sometimes. It's just a part of being human; none of us are perfect. Each video will be watched by multiple people. By comparing everyone's answers, we'll be able to easily identify the correct answers.</p>
+
+  <p>If you want to watch more videos, click on the blue "Next" button below the video. You'll be given a new video with the same 3 questions. Watching multiple videos helps our test, but it isn't required.</p>
+
+  <p>After you watch as many videos as you want to watch and submit your answers for each of those videos, please take this <a href="#">short survey</a>. The link is also provided below. The survey asks questions about your user experience. Your answers to those questions will help us develop the full website and improve the user experience.</p>
+
+  <div class="center"><a href="#">Survey Link</a></div>
+
+  <h2>Question Details:</h2>
+  <p>The first question asks how many bats you saw simultaneously in the video. Your choices are 0, 1, 2-5, or more than 5. Mark the answer that indicates the most bats that you saw at the same time in the video.</p>
+
+  <p>The second question gives you a list of behaviors and asks you to mark the ones that you saw. Some of the videos have lots of bats; other videos have only a few bats or no bats. You are watching all of the bats to see if any individual bat does one of the behaviors. If you see one bat do the behavior, then mark the behavior as being present in the video. You may see several different behaviors as you watch the video. Mark all of the ones that you see. The <a href="#/help">Help</a> page includes a table that describes each of the behaviors. It also has links to examples of most of the behaviors.</p>
+
+  <p>The third question asks you to mark any other animals that you see in the video. Your choices are human, insect, snake, bobcat, skunk, coati, coyote, ringtail, or none. You may see several different types of animals or you may see none. Mark all that apply. If you don't see any other animals then mark "none."</p>
+</div>
