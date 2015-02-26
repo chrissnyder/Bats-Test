@@ -8,9 +8,9 @@
 
   <p>If you want to watch more videos, click on the blue "Next" button below the video. You'll be given a new video with the same 3 questions. Watching multiple videos helps our test, but it isn't required.</p>
 
-  <p>After you watch as many videos as you want to watch and submit your answers for each of those videos, please take this <a href="#">short survey</a>. The link is also provided below. The survey asks questions about your user experience. Your answers to those questions will help us develop the full website and improve the user experience.</p>
+  <p>After you watch as many videos as you want to watch and submit your answers for each of those videos, please take this <a href="https://cornell.qualtrics.com/SE/?SID=SV_daRi0fqGE8nd5d3">short survey</a>. The link is also provided below. The survey asks questions about your user experience. Your answers to those questions will help us develop the full website and improve the user experience.</p>
 
-  <div class="center"><a href="#">Survey Link</a></div>
+  <div class="center"><a href="https://cornell.qualtrics.com/SE/?SID=SV_daRi0fqGE8nd5d3">Survey Link</a></div>
 
   <h2>Question Details:</h2>
   <p>The first question asks how many bats you saw simultaneously in the video. Your choices are 0, 1, 2-5, or more than 5. Mark the answer that indicates the most bats that you saw at the same time in the video.</p>
