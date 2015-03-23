@@ -1,25 +1,30 @@
+<% { projectActive } = require '../lib/config' %>
+
 <div class="page home">
-  <div class="center"><a href="#/classify" class="button">Begin</a></div>
+  <% if projectActive: %>
+    <div class="center"><a href="#/classify" class="button">Begin</a></div>
+    <h2>Why is this project important?</h2>
+    <p>Scientists know relatively little about the behavior of many North American bat species in their native environments. That is because bat behaviors are really hard to study in the wild. Bats tend to be small, active at night when it is hard for us to see them, and easily disturbed when they are in their roosts.</p>
 
-  <h2>Why is this project important?</h2>
-  <p>Scientists know relatively little about the behavior of many North American bat species in their native environments. That is because bat behaviors are really hard to study in the wild. Bats tend to be small, active at night when it is hard for us to see them, and easily disturbed when they are in their roosts.</p>
+    <p>Studying bat behaviors in the wild is becoming easier thanks to improvements in technology. Infrared and near infrared cameras are now able to remotely record bat behaviors in and around bat roosts. However, one study can produce thousands of hours of video. Someone has to watch all those videos and identify the behaviors.</p>
 
-  <p>Studying bat behaviors in the wild is becoming easier thanks to improvements in technology. Infrared and near infrared cameras are now able to remotely record bat behaviors in and around bat roosts. However, one study can produce thousands of hours of video. Someone has to watch all those videos and identify the behaviors.</p>
+    <p>This study helps scientists by involving the public in the scientific process. Lots of eyes can watch the videos faster than just one or two scientists. By working together, the videos can be processed faster and we can learn more about the bats' behaviors. Plus, because so little is known about bat behaviors in the wild, participants watching the videos may discover new behaviors.</p>
 
-  <p>This study helps scientists by involving the public in the scientific process. Lots of eyes can watch the videos faster than just one or two scientists. By working together, the videos can be processed faster and we can learn more about the bats' behaviors. Plus, because so little is known about bat behaviors in the wild, participants watching the videos may discover new behaviors.</p>
+    <h2>About the videos:</h2>
+    <p>The bats in the videos are lesser long-nosed bats (<i>Leptonycteris curasoae</i>). Lesser long-nosed bats are an endangered bat that feeds on nectar and pollen of many southwestern cacti species, including agave. Lesser long-nosed bats migrate between Mexico and southern Arizona and New Mexico. Their migration follows the blooms of the cacti that they pollinate.</p>
 
-  <h2>About the videos:</h2>
-  <p>The bats in the videos are lesser long-nosed bats (<i>Leptonycteris curasoae</i>). Lesser long-nosed bats are an endangered bat that feeds on nectar and pollen of many southwestern cacti species, including agave. Lesser long-nosed bats migrate between Mexico and southern Arizona and New Mexico. Their migration follows the blooms of the cacti that they pollinate.</p>
+    <p>Every year, scientists pick two consecutive nights in each of several months to conduct simultaneous population counts of the bats. The videos were recorded during those population counts. The videos feature an old mine that is located in Arizona and is a fall roosting site for the lesser long-nosed bats.</p>
 
-  <p>Every year, scientists pick two consecutive nights in each of several months to conduct simultaneous population counts of the bats. The videos were recorded during those population counts. The videos feature an old mine that is located in Arizona and is a fall roosting site for the lesser long-nosed bats.</p>
+    <p>A large, 6-sided gate surrounds the entrance to the mine. Six cameras, one for each side of the gate, were set up to record the bats as they entered and exited the mine. Infrared lights were also placed around the mine to provide extra light for the cameras. (Infrared light doesn't disturb the bats.) The cameras recorded video from sunup to sundown.</p>
 
-  <p>A large, 6-sided gate surrounds the entrance to the mine. Six cameras, one for each side of the gate, were set up to record the bats as they entered and exited the mine. Infrared lights were also placed around the mine to provide extra light for the cameras. (Infrared light doesn't disturb the bats.) The cameras recorded video from sunup to sundown.</p>
+    <p>Scientists used night vision goggles to count the bats using the mine at the same time that the cameras were recording the videos. The videos were originally used to check the accuracy of the scientists' population counts. Now, we want to use those same videos to study the bats' behaviors as they fly around the roost.</p>
 
-  <p>Scientists used night vision goggles to count the bats using the mine at the same time that the cameras were recording the videos. The videos were originally used to check the accuracy of the scientists' population counts. Now, we want to use those same videos to study the bats' behaviors as they fly around the roost.</p>
+    <h2>What we need you to do:</h2>
+    <p>We've broken the videos up into short 30 second clips and created this basic test site. Before we spend a bunch of time creating a "pretty" website with discussion boards, educational resources, etc., we want to do some quick beta-testing. Can the behaviors be identified easily and accurately? Are people interested in doing this sort of thing? Are we missing anything that we need to add at the beginning? By taking a few minutes to participate in this test and the survey at the end, you'll be helping us answer those questions and many more. The <a href="#/directions">Directions</a> page provides detailed directions about how to participate in the test.</p>
 
-  <h2>What we need you to do:</h2>
-  <p>We've broken the videos up into short 30 second clips and created this basic test site. Before we spend a bunch of time creating a "pretty" website with discussion boards, educational resources, etc., we want to do some quick beta-testing. Can the behaviors be identified easily and accurately? Are people interested in doing this sort of thing? Are we missing anything that we need to add at the beginning? By taking a few minutes to participate in this test and the survey at the end, you'll be helping us answer those questions and many more. The <a href="#/directions">Directions</a> page provides detailed directions about how to participate in the test.</p>
-
-  <h1 class="center">Thank you for helping us!</h1>
-
+    <h1 class="center">Thank you for helping us!</h1>
+  <% else: %>
+    <h2>Beta Testing Over!</h2>
+    <p>Thank you everyone for your support. We will be in touch!</p>
+  <% end %>
 </div>

@@ -1,0 +1,16 @@
+<% { projectActive } = require '../lib/config' %>
+
+<% if projectActive: %>
+  <div class="navigation">
+    <div class="item"><a href="#/">Home</a></div>
+    <div class="item"><a href="#/classify">Classify</a></div>
+    <div class="item"><a href="#/directions">Directions</a></div>
+    <div class="item"><a href="#/help">Help</a></div>
+  </div>
+<% else: %>
+  <div class="navigation">
+    <div class="item"><a href="#/">Home</a></div>
+    <div class="item"><a href="#/directions">Directions</a></div>
+    <div class="item"><a href="#/help">Help</a></div>
+  </div>
+<% end %>

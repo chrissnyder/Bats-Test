@@ -1,0 +1,2 @@
+module.exports =
+  projectActive: false
